@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "CreateDesignation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Add Designation</h4>
+                </div>
+                <div class="card-body">
+                    <div class="basic-form">
+                        <span class="text-bg-danger" id="span_1">@ViewBag.msg</span>
+
+                        <form method="post" class="form-valide-with-icon needs-validation" novalidate>
+                            @Html.AntiForgeryToken()
+
+                            <div class="mb-3">
+                                <label class="text-label form-label">Designation</label>
+                                <div class="input-group transparent-append">
+                                    <span class="input-group-text search_icon"> <i class="fa-solid fa-pen-nib"></i> </span>
+                                    <input type="text" class="form-control" name="Designation" placeholder="Enter Designation.." required>
+
+                                    <div class="invalid-feedback">
+                                        Please Enter a Designation.
+                                    </div>
+                                </div>
+                            </div>
+                            <select name="Status" hidden>
+                                <option>True</option>
+                            </select>
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                    <label class="form-check-label" for="invalidCheck2">
+                                        Check Me out
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn me-2 btn-primary">Submit</button>
+                            <button type="button" class="btn btn-light"><a href="/home/Designation" class="link">Back</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    setTimeout(function () {
+        document.getElementById("spn").innerHTML = "";
+    }, 5000);
+</script>

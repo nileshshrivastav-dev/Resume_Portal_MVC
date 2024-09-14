@@ -1,0 +1,115 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ForgotPassword</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        .ch {
+            margin-top: 10%;
+        }
+    </style>
+    <link href="~/Content/css/all.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-5 mx-auto bg-light p-4 ch rounded rounded-5">
+            <span class="text-danger">@ViewBag.message</span>
+
+            <form method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="form-group" hidden>
+                    <label class="text-primary form-label" for="validationCustomUsername"><b>Email</b></label>
+                    <div class="input-group validate-username">
+                        <span class="input-group-text search_icon"> <i class="fa fa-user"></i> </span>
+                        <input type="text" class="form-control br-style" id="validationCustomUsername" name="username" value="@Session["Email"]" placeholder="Enter a email.." required>
+                        <div class="invalid-feedback">
+                            Please Enter a email.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="text-primary form-label" for="dz-password1"><b>Create New Password</b></label>
+                    <div class="input-group transparent-append  validate-password">
+                        <span class="input-group-text search_icon"> <i class="fa fa-lock"></i> </span>
+                        <input type="password" class="form-control" id="dz-password1" name="password" placeholder="Create New Password.." required>
+                        <span class="input-group-text search_icon show-pass1 br-style">
+                            <i class="fa fa-eye-slash" id="togglePassword" onclick="togglePasswordVisibility()"></i>
+                            @*<i class="fa fa-eye"></i>*@
+                        </span>
+                        <div class="invalid-feedback">
+                            Please Enter a password.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <label class="text-primary form-label" for="dz-password"><b>Confirm Password</b></label>
+                    <div class="input-group transparent-append  validate-password">
+                        <span class="input-group-text search_icon"> <i class="fa fa-lock"></i> </span>
+                        <input type="password" class="form-control" id="dz-password" name="cpassword" placeholder="Confirm Password.." required>
+                        <span class="input-group-text search_icon show-pass br-style">
+                            <i class="fa fa-eye-slash" onclick="togglePasswordVisibilit()"></i>
+                            @*<i class="fa fa-eye"></i>*@
+                        </span>
+                        <div class="invalid-feedback">
+                            Please Enter Confirm Password.
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn bg-primary text-white btn-block mt-3" style="width:200px;">Change Password</button>
+                </div>
+
+
+            </form>
+
+        </div>
+    </div>
+    <script>
+        setTimeout(function () {
+            document.getElementById("spn").innerHTML = "";
+        }, 5000);
+
+        function togglePasswordVisibility() {
+            var passwordField = document.getElementById("dz-password1");
+            var toggleButton = document.getElementById("togglePassword");
+
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                toggleButton.classList.remove("fa-eye-slash");
+                toggleButton.classList.add("fa-eye");
+            } else {
+                passwordField.type = "password";
+                toggleButton.classList.remove("fa-eye");
+                toggleButton.classList.add("fa-eye-slash");
+            }
+        }
+        function togglePasswordVisibilit() {
+            var passwordField = document.getElementById("dz-password");
+            var toggleButton = document.getElementById("togglePassword");
+
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                toggleButton.classList.remove("fa-eye-slash");
+                toggleButton.classList.add("fa-eye");
+            } else {
+                passwordField.type = "password";
+                toggleButton.classList.remove("fa-eye");
+                toggleButton.classList.add("fa-eye-slash");
+            }
+        }
+    </script>
+</body>
+</html>
+
+

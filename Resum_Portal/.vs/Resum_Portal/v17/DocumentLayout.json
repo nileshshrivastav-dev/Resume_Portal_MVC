@@ -1,0 +1,587 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\wholeprojectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\wholeprojectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|c:\\users\\dell\\source\\project\\resum_portal\\resum_portal\\views\\home\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\userdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\userdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\forgotform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\forgotform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\tbl_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\tbl_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\designation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\designation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\allresumedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\allresumedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\content\\datatables.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\content\\datatables.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\tbl_resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\tbl_resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\pdfsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\pdfsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\content\\js\\custom.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\content\\js\\custom.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\default404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\default404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\defaultpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\defaultpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\createdesignation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\createdesignation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\content\\js\\plugins-init\\jquery.validate-init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\content\\js\\plugins-init\\jquery.validate-init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\allprojectdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\allprojectdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\resume_portalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\resume_portalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\tbl_designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\tbl_designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|C:\\Users\\Dell\\source\\project\\Resum_Portal\\resum_portal\\models\\projectdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ECDF0A-7F8E-4527-9E59-E5807A43DC53}|Resum_Portal\\Resum_Portal.csproj|solutionrelative:resum_portal\\models\\projectdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 207,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PdfSearchService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\PdfSearchService.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\PdfSearchService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\PdfSearchService.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\PdfSearchService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAwDsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:38:26.474Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerifyOTP.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\VerifyOTP.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\VerifyOTP.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\VerifyOTP.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\VerifyOTP.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T07:05:38.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAowKQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:36:23.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Resum_Portal\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:08:42.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T07:12:08.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "wholeProjectModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\wholeProjectModel.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\wholeProjectModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\wholeProjectModel.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\wholeProjectModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T05:16:45.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\ForgotPassword.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T04:25:35.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\UserData.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\UserData.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\UserData.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\UserData.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAswFEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T18:16:49.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "forgotform.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\forgotform.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\forgotform.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\forgotform.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\forgotform.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T07:14:18.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAtwH4AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T13:03:22.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tbl_User.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\tbl_User.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\tbl_User.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\tbl_User.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\tbl_User.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAjwA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T03:51:53.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Users.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\Users.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Users.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\Users.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowBkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T10:21:37.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\DataModel.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\DataModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\DataModel.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\DataModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T06:16:01.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "tbl_resume.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\tbl_resume.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\tbl_resume.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\tbl_resume.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\tbl_resume.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAkwCIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T05:47:36.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T10:41:40.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "datatables.min.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Content\\datatables.min.css",
+              "RelativeDocumentMoniker": "Resum_Portal\\Content\\datatables.min.css",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Content\\datatables.min.css",
+              "RelativeToolTip": "Resum_Portal\\Content\\datatables.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABSZQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-29T15:06:57.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Designation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Designation.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\Designation.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Designation.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\Designation.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T17:34:24.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllResumeData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\AllResumeData.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\AllResumeData.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\AllResumeData.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\AllResumeData.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAkwBUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T11:49:01.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DashBoardModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\DashBoardModel.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\DashBoardModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\DashBoardModel.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\DashBoardModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T06:48:07.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\DashBoard.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\DashBoard.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\DashBoard.cshtml",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAowNUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T17:33:09.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "custom.min.js",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Content\\js\\custom.min.js",
+              "RelativeDocumentMoniker": "Resum_Portal\\Content\\js\\custom.min.js",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Content\\js\\custom.min.js",
+              "RelativeToolTip": "Resum_Portal\\Content\\js\\custom.min.js",
+              "ViewState": "AQIAACkBAAAAAAAAAAAAADkBAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-28T07:33:21.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\UserProfile.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\UserProfile.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\UserProfile.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\UserProfile.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T06:25:24.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Web.config",
+              "RelativeDocumentMoniker": "Resum_Portal\\Web.config",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Web.config",
+              "RelativeToolTip": "Resum_Portal\\Web.config",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-27T08:01:29.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DefaultPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\DefaultPage.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\DefaultPage.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\DefaultPage.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\DefaultPage.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T08:10:24.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Default404.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Default404.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\Default404.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Default404.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\Default404.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T10:03:16.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAIAwwBEAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T11:16:39.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateDesignation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\CreateDesignation.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\CreateDesignation.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\CreateDesignation.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\CreateDesignation.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAwwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T17:21:26.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Resum_Portal\\Views\\Home\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Views\\Home\\Delete.cshtml",
+              "RelativeToolTip": "Resum_Portal\\Views\\Home\\Delete.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBEAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T07:59:24.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "jquery.validate-init.js",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Content\\js\\plugins-init\\jquery.validate-init.js",
+              "RelativeDocumentMoniker": "Resum_Portal\\Content\\js\\plugins-init\\jquery.validate-init.js",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Content\\js\\plugins-init\\jquery.validate-init.js",
+              "RelativeToolTip": "Resum_Portal\\Content\\js\\plugins-init\\jquery.validate-init.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-25T11:54:14.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AllprojectDataModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\AllprojectDataModel.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\AllprojectDataModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\AllprojectDataModel.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\AllprojectDataModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAlwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:59:10.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Resum_Portal\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Content\\Site.css",
+              "RelativeToolTip": "Resum_Portal\\Content\\Site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T05:36:02.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Resume_PortalModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\Resume_PortalModel.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\Resume_PortalModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\Resume_PortalModel.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\Resume_PortalModel.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:17:53.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "tbl_Designation.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\tbl_Designation.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\tbl_Designation.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\tbl_Designation.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\tbl_Designation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAlwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T05:48:12.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProjectDataModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\ProjectDataModel.cs",
+              "RelativeDocumentMoniker": "Resum_Portal\\Models\\ProjectDataModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\project\\Resum_Portal\\Resum_Portal\\Models\\ProjectDataModel.cs",
+              "RelativeToolTip": "Resum_Portal\\Models\\ProjectDataModel.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T16:59:51.584Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 69,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

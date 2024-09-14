@@ -1,0 +1,79 @@
+﻿@model Resum_Portal.Models.DashBoardModel
+
+@{
+    ViewBag.Title = "AllResumeData";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-3">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="flaticon-381-television me-2 bg-gray-dark p-2 text-light rounded-circle"></i>Resumes</h4>
+                <div class="dv mt-3 float-end">
+                    <form asp-controller="" asp-action="Index">
+                        <p>
+                            Resume Key: <input type="text" name="SearchString" />
+                            <input type="submit" value="Filter" class="" />
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    @if (Model.Resumesdata != null)
+                    {
+                        <table class="table table-responsive-md" id="myTable">
+                            <thead>
+                                <tr class="bg-primary">
+                                    <th class="width80"><strong class="text-light">#</strong></th>
+                                    <th><strong class="text-light">Title</strong></th>
+                                    <th><strong class="text-light">Designation</strong></th>
+                                    <th><strong class="text-light">Resume</strong></th>
+                                    <th><strong class="text-light">Keywords</strong></th>
+                                    <th><strong class="text-light">Status</strong></th>
+                                    <th><strong class="text-light">UploadedBY</strong></th>
+                                    @*<th></th>*@
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @{int i = 1;}
+                                @foreach (var resume in Model.Resumesdata)
+                                {
+                                <tr>
+                                    <td><strong>@i</strong></td>
+                                    <td>@resume.Title</td>
+                                    <td>@resume.Designation</td>
+                                    <td><a href="~/Content/@resume.Designation/@resume.Resume"><i class="fa-solid fa-file-pdf fs-4 text-danger"></i></a></td>
+                                    @*<td><a href="@resume.Resume"><i class="fa-solid fa-file-pdf fs-4 text-danger"></i></a></td>*@
+                                    <td>@resume.KeyWords</td>
+                                    @if (resume.Status.Equals(true))
+                                    {
+                                        <td><a href="/home/ChangeStatusAllresume?id=@resume.id"><span class="badge light badge-success">Active</span></a></td>
+                                    }
+                                    else
+                                    {
+                                        <td><a href="/home/ChangeStatusAllresume?id=@resume.id"><span class="badge light badge-danger">Inactive</span></a></td>
+
+                                    }
+                                    <td>@resume.UploadedBy</td>
+                            
+                                </tr>
+                                    i++;
+                                }
+
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+
+                        <span>No Any Data ! Related Your Search.</span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Content/jquery-3.6.0.min.js"></script>

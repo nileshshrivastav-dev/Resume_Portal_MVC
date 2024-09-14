@@ -1,0 +1,178 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="login, dashboard, scheduler, reports, scorecard" />
+    <meta name="author" content="Railworks" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Railworks" />
+    <meta property="og:title" content="Railworks" />
+    <meta property="og:description" content="Railworks" />
+    <meta property="og:image" content="social-image.png" />
+    <meta name="format-detection" content="telephone=no">
+    <title>Resume Portal</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://geotabreports.com/static/images/favicon.ico">
+    <link href="~/Content/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="h-100">
+    <div class="authincation h-100">
+        <div class="container-fluid h-100">
+            <div class="row">
+
+
+
+                <!--********************************** Static Section Left ***********************************-->
+
+                <div class="col-md-8 authincation-content bg-purpal">
+
+                    <div class="row no-gutters">
+                        <div class="col-xl-12 p-5 bg-purpal">
+
+                            <div class="bg-light logo-desktop">
+                                
+                                <div class="row">
+                                    @*<div class="col-sm-3">
+                                        <img class="logo-abbr ms-1 float-left" src="~/Content/images/logo.png" alt="" height="50">
+                                    </div>*@
+                                    <div class="col-sm-9 mx-auto">
+                                        <h1 class="brand-title float-left" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Resume<sub class="brand-title fs-6 mt-0 ms-0 text-primary">Portal</sub></h1>
+                                    </div>
+                                </div>
+                                @*<a href="index.html"><img src="https://geotabreports.com/static/images/railworks-fleet-management-logo.png" alt=""></a>*@
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--********************************** Static Section Left End ***********************************-->
+                <!--********************************** Login Section Right ***********************************-->
+
+                <div class="col-md-4 bg-light" style="max-height: 100%;">
+                    <div class="auth-form p-5">
+                        @*<div class="text-center  mb-3">
+                            <a href="index.html"><img src="https://geotabreports.com/static/images/railworks-fleet-management-logo.png" alt="" class="d-lg-none"></a>
+                        </div>*@
+                        <h3 class="text-left mb-4 text-black">Sign in your account</h3>
+                        <div class="mt-5">
+                            <span id="spn" class="text-danger">@ViewBag.error</span>
+                            <form action="#" method="post" class="form-valide-with-icon needs-validation" novalidate>
+                                @Html.AntiForgeryToken()
+
+                                <div class="form-group">
+                                    <label class="text-purple form-label" for="validationCustomUsername"><b>Email</b></label>
+                                    <div class="input-group validate-username">
+                                        <span class="input-group-text search_icon"> <i class="fa fa-user"></i> </span>
+                                        <input type="text" class="form-control br-style" id="validationCustomUsername" name="Email" placeholder="Enter a Email.." required>
+                                        <div class="invalid-feedback">
+                                            Please Enter a username.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="text-purple form-label" for="dz-password"><b>Password</b></label>
+                                    <div class="input-group transparent-append  validate-password">
+                                        <span class="input-group-text search_icon"> <i class="fa fa-lock"></i> </span>
+                                        <input type="password" class="form-control" id="dz-password" name="password" placeholder="Enter a password.." required>
+                                        <span class="input-group-text search_icon show-pass br-style">
+                                            <i class="fa fa-eye-slash"></i>
+                                            <i class="fa fa-eye"></i>
+                                        </span>
+                                        <div class="invalid-feedback">
+                                            Please Enter a password.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn bg-purpal text-white btn-block">Sign in</button>
+                                </div>
+
+                            </form>
+                            <div class="form-row d-flex justify-content-between mt-4 mb-5">
+                                <div class="form-group">
+                                    <a class="text-purple" href="/home/ForgotPassword">Forgot Password?</a>
+                                </div>
+                            </div>
+                            @*<div class="form-row d-flex justify-content-between">
+
+                                <button type="button" class="btn btn-facebook">
+                                    <i class="fab fa-facebook-f"></i> Facebook
+                                </button>
+                                <button type="button" class="btn btn-twitter">
+                                    <i class="fab fa-twitter"></i> Twitter
+                                </button>
+                                <button type="button" class="btn btn-youtube">
+                                    <i class="fab fa-youtube"></i> Youtube
+                                </button>
+
+                            </div>*@
+                        </div>
+                        <div class="new-account mb-3 d-sm-none d-lg-block" style="margin-top: 88px;">
+                            <p>Copyright © Designed &amp; Developed by Arivani Technology Pvt Ltd</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--********************************** Login Section Right End ***********************************-->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <!-- Required vendors -->
+    <script src="~/Content/vendor/global/global.min.js"></script>
+    <script src="~/Content/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="~/Content/js/custom.min.js"></script>
+    <script src="~/Content/js/deznav-init.js"></script>
+    <script src="~/Content/js/demo.js"></script>
+    <!-- <script src="js/styleSwitcher.js"></script> -->
+    <!-- Jquery Validation -->
+    <script src="~/Content/vendor/jquery-validation/jquery.validate.min.js"></script>
+    <!-- Form validate init -->
+    <script src="~/Content/js/plugins-init/jquery.validate-init.js"></script>
+    <script>
+        setTimeout(function () {
+            document.getElementById("spn").innerHTML = "";
+        }, 5000);
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+
+</body>
+
+</html>

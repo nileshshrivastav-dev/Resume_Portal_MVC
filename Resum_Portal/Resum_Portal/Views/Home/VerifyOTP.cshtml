@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ForgotPassword</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        .ch {
+            margin-top: 10%;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-5 mx-auto bg-light p-4 ch rounded rounded-5">
+            <span class="text-danger">@ViewBag.message</span>
+
+            <form method="post">
+                @Html.AntiForgeryToken()
+
+                <label class="mb-3">OTP : </label>
+                <input type="text" class="form-control br-style" name="OTP" placeholder="Enter OTP.." required>
+
+
+                <button type="submit" class="btn bg-primary text-white btn-block mt-3" style="width:150px;">Verify OTP</button>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>
+

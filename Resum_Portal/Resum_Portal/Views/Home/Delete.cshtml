@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-4 mx-auto mt-5 border border-1">
+        <h5 class="modal-title">Resume Portal</h5>
+        <hr />
+        <div class="mt-3">Are You Sure Want to Delete @Model.Name ?</div>
+        <hr />
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color mt-3 float-end">
+                <button type="button" class="btn btn-sm btn-danger light" data-bs-dismiss="modal"><a href="/home/Users" class="link">Close</a></button>
+                <input type="submit" value="Delete" class="btn btn-info me-3" id="del" />
+
+            </div>
+        }
+    </div>
+</div>
+

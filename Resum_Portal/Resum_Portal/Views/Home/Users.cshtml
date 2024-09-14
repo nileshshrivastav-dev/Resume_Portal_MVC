@@ -1,0 +1,121 @@
+﻿@model IEnumerable<Resum_Portal.Models.tbl_User>
+@{
+    ViewBag.Title = "Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/css/all.css" rel="stylesheet" />
+<style>
+    .link {
+        text-decoration: none;
+        color: white;
+    }
+
+        .link:hover {
+            color: red;
+        }
+</style>
+<div class="row mt-3">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><i class="fa-solid fa-user me-2 bg-gray-dark p-2 text-light rounded-circle"></i>User</h4>
+                <button class="btn btn-primary float-end ms-3 me-3 mb-3"><a href="/home/Index" class="link">Add User</a></button>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-responsive-md" id="myTable">
+                        <thead>
+                            <tr class="bg-primary">
+                                <th class="width80"><strong class="text-light">#</strong></th>
+                                <th><strong class="text-light">Name</strong></th>
+                                <th><strong class="text-light">Profile</strong></th>
+                                <th><strong class="text-light">Email</strong></th>
+                                <th><strong class="text-light">Mobile</strong></th>
+                                <th><strong class="text-light">Gender</strong></th>
+                                <th><strong class="text-light">Address</strong></th>
+                                <th><strong class="text-light">Password</strong></th>
+                                <th><strong class="text-light">Role</strong></th>
+                                <th><strong class="text-light">Status</strong></th>
+                                <th><strong class="text-light">CreatedBy</strong></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null)
+                            {
+                                int i = 1;
+                                foreach (var user in Model)
+                                {
+                                    <tr>
+                                        <td><strong>@i</strong></td>
+                                        <td>@user.Name</td>
+                                        <td><img src="~/Content/profile/@user.Photo" height="50" width="50" class="rounded rounded-circle"></td>
+                                        <td>@user.Email</td>
+                                        <td>@user.Mobile</td>
+                                        <td>@user.Gender</td>
+                                        <td>@user.Address</td>
+                                        <td>@user.password</td>
+                                        <td>@user.Role</td>
+                                        @if (user.Status.Equals(true))
+                                        {
+                                            <td><a href="/home/ChangeStatusUser?id=@user.Email"><span class="badge light badge-success">Active</span></a></td>
+                                        }
+                                        else
+                                        {
+                                            <td><a href="/home/ChangeStatusUser?id=@user.Email"><span class="badge light badge-danger">Inactive</span></a></td>
+
+                                        }
+                                        <td>@user.CreatedBy</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button type="button" class="btn btn-success light sharp" data-bs-toggle="dropdown">
+                                                    <svg width="20px" height="20px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24" /><circle fill="#000000" cx="5" cy="12" r="2" /><circle fill="#000000" cx="12" cy="12" r="2" /><circle fill="#000000" cx="19" cy="12" r="2" /></g></svg>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="/home/Edit?id=@user.Email">Edit</a>
+                                                    <a class="dropdown-item" href="/home/Delete?id=@user.Email">Delete</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    i++;
+                                }
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@*
+    <!--Modal-->
+    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Resume Portal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                    </button>
+                </div>
+                <div class="modal-body">Are You Sure Want to Delete this ?</div>
+                <div class="modal-footer">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                    <div class="form-actions no-color mt-3 float-end">
+                        <button type="button" class="btn btn-sm btn-danger light" data-bs-dismiss="modal">Close</button>
+                        <input type="submit" value="Delete" class="btn btn-info me-3" id="del" />
+
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+*@
